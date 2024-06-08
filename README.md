@@ -2,8 +2,9 @@
 
 
 ## Project Overview
-This project includes a series of Python scripts designed to generate training data and create a finely-tuned ChatGPT model. Find the training guide below: 
+This project includes a series of Python scripts designed to generate training data and create a finely-tuned ChatGPT model. 
 
+Find the training guide below: 
 [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
 
 ## Table of Contents
@@ -60,7 +61,7 @@ This project includes a series of Python scripts designed to generate training d
 
 ## How to Use:
 
-### Data Generation & Training (Part 1)
+### (Part 1) Data Generation & Training
 
 1) Create an xlsx file with a list of prompts for ChatGPT or use the provided ./data/promptData.xlsx file
 2) Run generateData.py to create responses to each one of these prompts dynamically
@@ -70,12 +71,10 @@ This project includes a series of Python scripts designed to generate training d
 6) Run createModel.py to start fine-tuning the ChatGPT model
 7) Check the progress with checkModel.py
 
-### Accessing the Model (Part 2)
+### (Part 2) Accessing the Model
 
 1) The createModel.py script will return a model number for your specific finely tuned model or your can access this through the OpenAI Fine Tuning web portal (https://platform.openai.com/docs/guides/fine-tuning).
-2) The callsToModel.py script can make specific calls to your newly created finely-tuned model.
-
-This can be achieved by replacing "ft:gpt-3.5-turbo-0125:personal::XXXXXXXX" with your specific model ID
+2) The callsToModel.py script can make specific calls to your newly created finely-tuned model. This can be achieved by replacing "ft:gpt-3.5-turbo-0125:personal::XXXXXXXX" with your specific model ID
 & "Here is a test prompt" with a specific prompt
 
 ## Project Features
