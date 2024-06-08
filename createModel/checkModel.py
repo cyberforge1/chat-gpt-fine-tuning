@@ -19,8 +19,6 @@ print("State response:", state_response)
 # events_response = client.fine_tuning.jobs.list_events(fine_tuning_job_id="ftjob-jzt8OpmH2OSnUrndQBqHyXXX", limit=10)
 # print("Events response:", events_response)
 
-
-
 # List 10 fine-tuning jobs
 # client.fine_tuning.jobs.list(limit=10)
 

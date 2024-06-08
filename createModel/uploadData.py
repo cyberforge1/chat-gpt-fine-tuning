@@ -1,4 +1,4 @@
-# Uploads the Data to the API for processing
+
 import os
 from dotenv import load_dotenv
 import openai
