@@ -75,13 +75,13 @@ This project includes a series of Python scripts designed to generate training d
 1) The createModel.py script will return a model number for your specific finely tuned model or your can access this through the OpenAI Fine Tuning web portal (https://platform.openai.com/docs/guides/fine-tuning).
 2) The callsToModel.py script can make specific calls to your newly created finely-tuned model.
 
-- This can be achieved by replacing "ft:gpt-3.5-turbo-0125:personal::XXXXXXXX" with your specific model ID
+This can be achieved by replacing "ft:gpt-3.5-turbo-0125:personal::XXXXXXXX" with your specific model ID
 & "Here is a test prompt" with a specific prompt
 
 ## Project Features
-- [x] A base dataset containing 200 queries
 - [x] Scripts that automate the creation of specific training data
 - [x] Scripts that transfer the data into desired format and train a finely-tuned ChatGPT model
+- [x] A base dataset containing 200 queries
 
 ## Additions & Improvements
 - [ ] Refactoring scripts for efficiency 
@@ -89,8 +89,8 @@ This project includes a series of Python scripts designed to generate training d
 
 
 ## Learning Highlights
-- Strengthened skills with Python scripting and automation
-- Experience training a chatbot model with custom data
+- Practiced skills with Python scripting and automation
+- Gained experience training a chatbot model with custom data
 
 
 ## Contact Me
