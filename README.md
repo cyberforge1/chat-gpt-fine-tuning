@@ -1,4 +1,4 @@
-# ChatGPT Fine-Tuning Project
+# ChatGPT Fine-Tuning
 
 
 ## Project Overview
