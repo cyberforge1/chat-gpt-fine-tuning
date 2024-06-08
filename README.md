@@ -1,4 +1,4 @@
-# ChatGPT Fine-Tuning Scripts
+# ChatGPT Fine-Tuning Project
 
 
 ## Project Overview
