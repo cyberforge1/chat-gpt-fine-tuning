@@ -7,9 +7,6 @@ This project includes a series of Python scripts designed to generate training d
 Find the training guide below: 
 [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
 
-## Training Diagram
-![Project Diagram](project-diagram.png)
-
 ## Table of Contents
 - [Tech Stack](#tech-stack)
 - [Build Steps](#build-steps)
