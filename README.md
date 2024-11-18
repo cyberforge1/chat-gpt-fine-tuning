@@ -2,7 +2,7 @@
 
 
 ## Project Overview
-A project that automates the training of a ChatGPT model with scripting and custom-generated data. Created with Python, Pandas, NumPy, and the OpenAI API.
+A project that automates the training of a finely-tuned ChatGPT model with scripting and custom-generated data. Created with Python, Pandas, NumPy, and the OpenAI API.
 
 Find the training guide below: 
 [https://platform.openai.com/docs/guides/fine-tuning](https://platform.openai.com/docs/guides/fine-tuning)
