@@ -1,4 +1,5 @@
 .env
 .venv
+venv/
 private-details.md
 model-details.png
